@@ -84,6 +84,11 @@ $data = mysqli_fetch_array($query);
                                         Jumlah: <?php echo $produk['jumlah_produk'];?><br>
                                         Sub Total: <?php echo $produk['sub_total'];?>
                                     </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td style="font-weight: bold;">Total Harga: <?php echo $data['total_harga'];?></td>
+                                </tr>
                                 <?php
                                     }
                                 ?>
